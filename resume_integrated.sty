@@ -13,7 +13,7 @@
 \RequirePackage{fontspec}
 % \setmainfont{Times New Roman}
 \setmainfont{JetBrains Mono}
-\RequirePackage[utf8]{inputenc}   % remove if compiling with XeLaTeX/LuaLaTeX only
+% \RequirePackage[utf8]{inputenc}   % remove if compiling with XeLaTeX/LuaLaTeX only
 \RequirePackage[english]{babel}
 \RequirePackage{ragged2e}
 % ---- Line spacing ----
@@ -35,6 +35,7 @@
   citecolor=BerkeleyBlue,
   urlcolor=BerkeleyBlue
 }
+\definecolor{darkorange}{RGB}{179,98,0} % DodgerBlue
 
 % -------------------- Typography --------------------
 \RequirePackage[protrusion]{microtype}
@@ -49,8 +50,8 @@
 \hyphenation{Some-long-word}
 \AtBeginDocument{%
   \sloppy
-  \hyphenpenalty=10000
-  \exhyphenpenalty=10000
+  \hyphenpenalty=10
+  \exhyphenpenalty=100
   \emergencystretch=0.2em
 }
 
@@ -92,6 +93,7 @@
 
 % -------------------- Formatting helpers --------------------
 \newcommand{\period}[4]{#1.\ #2 -- #3.\ #4}
+\newcommand{\periodnow}[4]{#1.\ #2 -- Present}
 
 % Section title (left-aligned, no indent)
 \newcommand{\roottitle}[1]{%
