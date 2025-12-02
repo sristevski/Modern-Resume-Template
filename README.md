@@ -68,7 +68,7 @@ Open `cv_template_industry.tex` and replace the placeholder content with your ow
 
 ## 🧑‍💻 Author
 
-Created by **Ping-Ju Hsieh**  
+Created by **Ping-Ju Hsieh** updated by **Stefan Ristevski**.
 If you like it, please ⭐️ this repository and share! Contributions welcome.
 
 ---
